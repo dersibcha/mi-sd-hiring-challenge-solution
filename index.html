@@ -4,10 +4,19 @@
 <head>
   <title>Movable Ink</title>
   <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <input type="text" id="zipCode" placeholder="Enter Zip Code" />
+    <button id="getWeather">Get Weather</button>
+    <div id="weatherTitleContainer"></div>
+    <div id="weatherContainer"></div>
+  </div>
 </body>
 <script src="src/app.js"></script>
 
